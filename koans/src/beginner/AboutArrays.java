@@ -3,12 +3,13 @@ package beginner;
 import com.sandwich.koan.Koan;
 
 import java.util.Arrays;
+import java.util.LinkedList;
 
 import static com.sandwich.koan.constant.KoanConstants.__;
 import static com.sandwich.util.Assert.assertEquals;
 
 public class AboutArrays {
-
+    LinkedList
     @Koan
     public void arraysDoNotConsiderElementsWhenEvaluatingEquality() {
         // arrays utilize default object equality (A == {1} B == {1}, though A
